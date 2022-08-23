@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 400px;
+    background: linear-gradient(to right, lightgray, gray);
+}
+h1 {
+   font-size: 40px;
+   font-weight: bolder;
+   color: blueviolet;
+   text-align: center;
+   padding-top: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#control-panel {
+   float: left;
+   padding-top: 30px;
+}
+.button1,.button2,.button3 {
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 90px 40px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: red;
+    color: black;
+}
+.button2 {
+    background-color: yellow;
+    color: black;
+}
+.button3 {
+    background-color: green;
+    color: black;
+}
+#traffic-light {
+    width: 200px;
+    height: 500px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
+
+}
+.light {
+    width: 70%;
+    height: 26%;
+    border-radius: 50%;
+    z-index: 7;
+    text-align: center;
+}
+#red {
+    background-color: red;
+    box-shadow: 4px 4px 8px 4px red;
+    margin: 30px;
+}
+#yellow {
+    background-color: yellow;
+    box-shadow: 4px 4px 8px 4px yellow;
+    margin: 30px;
+}
+#green {
+    background-color: green;
+    box-shadow: 4px 4px 8px 4px green;
+    margin: 30px;
+}
